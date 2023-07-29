@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+	border: 0;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.container {
+  padding: 36px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/read_news.jpg);
+  background-size: 50% 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;  
+}
+
+.img {
+  width: 389px;
+  height: 94px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 92px;
+}
+
+.info-title {
+  color: var(--green, #08c05e);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info-sub-title {
+  color: #fff;
+  font-family: Spartan;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.info-description {
+  width: 647px;
+  color: #fff;
+  font-family: Spartan;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 138.735%;
+}
+
+.email {
+  display: flex;
+  margin-top: 50px;
+  gap: 17px;
+  flex-direction: column;
+}
+
+.email-title {
+  color: #A8A8A8;
+  font-family: Spartan;
+  font-size: 14px;  
+  font-weight: 700;
+  line-height: 138.735%;
+  display: block;
+}
+
+.submit-email {
+  display: flex;
+}
+
+.input-email {
+  padding: 17px 15px;
+  font-family: "Work Sans", sans-serif;
+  color: #121214;
+  font-weight: 400;
+  border-left: 5px solid #08c05e;
+  outline: none;
+  width: 750px;
+  height: 48px;
+}
+
+.input-email::placeholder {
+  font-family: "Work Sans", sans-serif;
+  color: #6a6a6a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.input-email:focus-visible {
+  /* disabled for chorme */
+  outline: none;
+}
+
+.btn {
+  background: #8257e5;
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.details {
+  color: var(--purple, #8257e5);
+  font-family: Spartan;
+  font-size: 14px;  
+  font-weight: bold;
+  line-height: 138.735%;
+  display: flex;
+  gap: 5px;
+  margin-top: 52px;
+}
+
+.arrow {
+  margin-top: -4px;
+}
+
